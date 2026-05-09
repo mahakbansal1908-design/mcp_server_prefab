@@ -1,0 +1,330 @@
+{
+  "$prefab": {
+    "version": "0.2"
+  },
+  "view": {
+    "cssClass": "pf-app-root max-w-6xl mx-auto p-8 bg-gray-50 min-h-screen",
+    "type": "Div",
+    "children": [
+      {
+        "cssClass": "gap-8",
+        "type": "Column",
+        "children": [
+          {
+            "cssClass": "gap-2",
+            "type": "Column",
+            "children": [
+              {
+                "cssClass": "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-pink-600 text-center",
+                "content": "Gourmet Indian Recipes",
+                "type": "Heading",
+                "level": 1
+              },
+              {
+                "cssClass": "text-lg text-center text-gray-600",
+                "content": "Curated by your agentic assistant",
+                "type": "Muted"
+              }
+            ]
+          },
+          {
+            "cssClass": "my-2 opacity-50",
+            "type": "Separator",
+            "orientation": "horizontal"
+          },
+          {
+            "cssClass": "gap-8 grid-cols-3",
+            "type": "Grid",
+            "children": [
+              {
+                "cssClass": "overflow-hidden rounded-3xl bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-50 shadow-sm",
+                "type": "Card",
+                "children": [
+                  {
+                    "cssClass": "h-56 object-cover w-full",
+                    "type": "Image",
+                    "src": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/12/beetroot-curry-recipe.jpg",
+                    "alt": "Beetroot Curry (Beetroot Sabzi)",
+                    "width": "100%"
+                  },
+                  {
+                    "cssClass": "p-6",
+                    "type": "CardContent",
+                    "children": [
+                      {
+                        "cssClass": "gap-4",
+                        "type": "Column",
+                        "children": [
+                          {
+                            "cssClass": "bg-orange-50 text-orange-700 text-xs font-bold w-max px-3 py-1 rounded-full uppercase tracking-wider",
+                            "type": "Badge",
+                            "label": "Indian Vegetarian",
+                            "variant": "default"
+                          },
+                          {
+                            "cssClass": "text-xl font-bold text-gray-800 leading-tight",
+                            "type": "CardTitle",
+                            "content": "Beetroot Curry (Beetroot Sabzi)"
+                          },
+                          {
+                            "cssClass": "opacity-30",
+                            "type": "Separator",
+                            "orientation": "horizontal"
+                          },
+                          {
+                            "cssClass": "justify-between",
+                            "type": "Row",
+                            "children": [
+                              {
+                                "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
+                                "type": "Markdown",
+                                "content": "[**View Recipe**](https://www.indianhealthyrecipes.com/beetroot-curry/)"
+                              },
+                              {
+                                "cssClass": "text-indigo-600",
+                                "content": "\u2192",
+                                "type": "Text"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cssClass": "overflow-hidden rounded-3xl bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-50 shadow-sm",
+                "type": "Card",
+                "children": [
+                  {
+                    "cssClass": "h-56 object-cover w-full",
+                    "type": "Image",
+                    "src": "https://www.indianveggiedelight.com/wp-content/uploads/2020/02/beetroot_tikki-1-360x361.jpg",
+                    "alt": "Beetroot Tikki (Cutlet)",
+                    "width": "100%"
+                  },
+                  {
+                    "cssClass": "p-6",
+                    "type": "CardContent",
+                    "children": [
+                      {
+                        "cssClass": "gap-4",
+                        "type": "Column",
+                        "children": [
+                          {
+                            "cssClass": "bg-orange-50 text-orange-700 text-xs font-bold w-max px-3 py-1 rounded-full uppercase tracking-wider",
+                            "type": "Badge",
+                            "label": "Indian Vegetarian",
+                            "variant": "default"
+                          },
+                          {
+                            "cssClass": "text-xl font-bold text-gray-800 leading-tight",
+                            "type": "CardTitle",
+                            "content": "Beetroot Tikki (Cutlet)"
+                          },
+                          {
+                            "cssClass": "opacity-30",
+                            "type": "Separator",
+                            "orientation": "horizontal"
+                          },
+                          {
+                            "cssClass": "justify-between",
+                            "type": "Row",
+                            "children": [
+                              {
+                                "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
+                                "type": "Markdown",
+                                "content": "[**View Recipe**](https://www.indianveggiedelight.com/beetroot-recipes/)"
+                              },
+                              {
+                                "cssClass": "text-indigo-600",
+                                "content": "\u2192",
+                                "type": "Text"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cssClass": "overflow-hidden rounded-3xl bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-50 shadow-sm",
+                "type": "Card",
+                "children": [
+                  {
+                    "cssClass": "h-56 object-cover w-full",
+                    "type": "Image",
+                    "src": "https://pipingpotcurry.com/wp-content/uploads/2017/08/IMG_0809.jpg",
+                    "alt": "Beetroot Rice (Pulao)",
+                    "width": "100%"
+                  },
+                  {
+                    "cssClass": "p-6",
+                    "type": "CardContent",
+                    "children": [
+                      {
+                        "cssClass": "gap-4",
+                        "type": "Column",
+                        "children": [
+                          {
+                            "cssClass": "bg-orange-50 text-orange-700 text-xs font-bold w-max px-3 py-1 rounded-full uppercase tracking-wider",
+                            "type": "Badge",
+                            "label": "Indian Vegetarian",
+                            "variant": "default"
+                          },
+                          {
+                            "cssClass": "text-xl font-bold text-gray-800 leading-tight",
+                            "type": "CardTitle",
+                            "content": "Beetroot Rice (Pulao)"
+                          },
+                          {
+                            "cssClass": "opacity-30",
+                            "type": "Separator",
+                            "orientation": "horizontal"
+                          },
+                          {
+                            "cssClass": "justify-between",
+                            "type": "Row",
+                            "children": [
+                              {
+                                "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
+                                "type": "Markdown",
+                                "content": "[**View Recipe**](https://pipingpotcurry.com/indian-beetroot-recipes/)"
+                              },
+                              {
+                                "cssClass": "text-indigo-600",
+                                "content": "\u2192",
+                                "type": "Text"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cssClass": "overflow-hidden rounded-3xl bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-50 shadow-sm",
+                "type": "Card",
+                "children": [
+                  {
+                    "cssClass": "h-56 object-cover w-full",
+                    "type": "Image",
+                    "src": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/02/beetroot-halwa-recipe-1-500x375.jpg",
+                    "alt": "Beetroot Halwa",
+                    "width": "100%"
+                  },
+                  {
+                    "cssClass": "p-6",
+                    "type": "CardContent",
+                    "children": [
+                      {
+                        "cssClass": "gap-4",
+                        "type": "Column",
+                        "children": [
+                          {
+                            "cssClass": "bg-orange-50 text-orange-700 text-xs font-bold w-max px-3 py-1 rounded-full uppercase tracking-wider",
+                            "type": "Badge",
+                            "label": "Indian Vegetarian",
+                            "variant": "default"
+                          },
+                          {
+                            "cssClass": "text-xl font-bold text-gray-800 leading-tight",
+                            "type": "CardTitle",
+                            "content": "Beetroot Halwa"
+                          },
+                          {
+                            "cssClass": "opacity-30",
+                            "type": "Separator",
+                            "orientation": "horizontal"
+                          },
+                          {
+                            "cssClass": "justify-between",
+                            "type": "Row",
+                            "children": [
+                              {
+                                "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
+                                "type": "Markdown",
+                                "content": "[**View Recipe**](https://www.vegrecipesofindia.com/beetroot-recipes/)"
+                              },
+                              {
+                                "cssClass": "text-indigo-600",
+                                "content": "\u2192",
+                                "type": "Text"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cssClass": "overflow-hidden rounded-3xl bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-50 shadow-sm",
+                "type": "Card",
+                "children": [
+                  {
+                    "cssClass": "h-56 object-cover w-full",
+                    "type": "Image",
+                    "src": "https://panmastery.com/wp-content/uploads/2026/04/Beetroot-Pachadi-with-Yogurt-683x1024.jpg",
+                    "alt": "Beetroot Sambar",
+                    "width": "100%"
+                  },
+                  {
+                    "cssClass": "p-6",
+                    "type": "CardContent",
+                    "children": [
+                      {
+                        "cssClass": "gap-4",
+                        "type": "Column",
+                        "children": [
+                          {
+                            "cssClass": "bg-orange-50 text-orange-700 text-xs font-bold w-max px-3 py-1 rounded-full uppercase tracking-wider",
+                            "type": "Badge",
+                            "label": "Indian Vegetarian",
+                            "variant": "default"
+                          },
+                          {
+                            "cssClass": "text-xl font-bold text-gray-800 leading-tight",
+                            "type": "CardTitle",
+                            "content": "Beetroot Sambar"
+                          },
+                          {
+                            "cssClass": "opacity-30",
+                            "type": "Separator",
+                            "orientation": "horizontal"
+                          },
+                          {
+                            "cssClass": "justify-between",
+                            "type": "Row",
+                            "children": [
+                              {
+                                "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
+                                "type": "Markdown",
+                                "content": "[**View Recipe**](https://panmastery.com/beetroot-recipes-indian/)"
+                              },
+                              {
+                                "cssClass": "text-indigo-600",
+                                "content": "\u2192",
+                                "type": "Text"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
