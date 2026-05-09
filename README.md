@@ -1,12 +1,12 @@
-# 🤖 Agentic Recipe Dashboard
+# 🤖 Agentic Dashboard
 
-An autonomous, AI-powered recipe dashboard that curates, verifies, and renders delicious recipes in a stunning, modern interface.
+An autonomous, AI-powered dashboard that searches, verifies, and renders information on any topic in a stunning, modern interface.
 
-This project demonstrates a fully autonomous agent loop that leverages the **Google Gemini API** to fetch diverse recipe content from the web, verify links, and generate a high-fidelity UI using the **Prefab** framework and **Tailwind CSS**.
+This project demonstrates a fully autonomous agent loop that leverages the **Google Gemini API** to fetch diverse content from the web, verify links, and generate a high-fidelity UI using the **Prefab** framework and **Tailwind CSS**.
 
 ## ✨ Features
 
-- **Autonomous Curation**: The agent searches for recipes based on your prompt and selects the best ones from at least 3 different domains.
+- **Autonomous Curation**: The agent searches for information based on your prompt and selects the best results from at least 3 different domains to ensure diversity.
 - **Fail-Safe Verification**: Every link is checked for validity before being added to the dashboard, preventing broken links.
 - **Premium UI Design**: A modern, card-based layout with hover transitions, gradients, and responsive design.
 - **Environment Security**: Sensitive keys are managed via environment variables (ignored by Git).
@@ -33,7 +33,7 @@ Ensure you have Python 3.x installed.
    ```
 
 2. **Install dependencies**:
-   Ensure you have the required libraries installed (e.g., `google-genai`, `python-dotenv`).
+   Ensure you have the required libraries installed.
    ```bash
    pip install google-genai python-dotenv
    ```
@@ -50,8 +50,8 @@ Ensure you have Python 3.x installed.
    ```bash
    python3 client.py
    ```
-2. Enter your prompt when prompted (e.g., `veg indian beetroot recipes`).
-3. The agent will do the work, and once finished, it will keep the dashboard server running.
+2. Enter your prompt when prompted (e.g., `latest space discoveries` or `veg indian beetroot recipes`).
+3. The agent will search, verify links, and generate the dashboard. Once finished, it will keep the server running.
 4. Open [http://127.0.0.1:5175](http://127.0.0.1:5175) in your browser to view the dashboard!
 
 ## 📂 File Structure

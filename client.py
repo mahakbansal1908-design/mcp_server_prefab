@@ -88,12 +88,12 @@ Available Tools:
 
 Instructions:
 1. You must decide which tool to call next to progress towards the goal.
-2. Use the 'search_internet' tool to find information. You MUST select results from at least 3 different domain names to ensure diversity of sources. Do not rely on a single website for all recipes.
+2. Use the 'search_internet' tool to find information. You MUST select results from at least 3 different domain names to ensure diversity of sources. Do not rely on a single website for all results.
 3. The user wants to see a beautiful UI of the information. To do this, you MUST:
    a. Search and fetch data if needed.
    b. **Verify** that the links you plan to use are valid and return successful content by using the 'fetch_content' tool on them before adding them to the file. This is to ensure they are not broken or 404.
-   c. Process the verified data and write it to a file named `data.json` using the 'file_crud' tool with action='write'. You MUST use this exact filename for all runs to prevent accumulating multiple files. The file content must be a JSON list of objects, where each object MUST have 'title', 'link', and 'image_url'. Try to extract a valid image URL from the fetched recipe page if possible.
-   d. **You MUST provide at least 5 tiles with different content and different, specific links for each SPECIFIC DISH (e.g., 'Crispy Tofu Stir-Fry', not '57 Tofu Recipes').** The title of the tile must be the name of the specific recipe, not a collection title or listicle heading. Do not use the same link for all items.
+   c. Process the verified data and write it to a file named `data.json` using the 'file_crud' tool with action='write'. You MUST use this exact filename for all runs to prevent accumulating multiple files. The file content must be a JSON list of objects, where each object MUST have 'title', 'link', and 'image_url'. Try to extract a valid image URL from the fetched page if possible.
+   d. **You MUST provide at least 5 tiles with different content and different, specific links for each SPECIFIC ITEM (e.g., a specific product or article, not a listicle or collection page).** The title of the tile must be the name of the specific item. Do not use the same link for all items.
    e. Call 'view_tiles' with `data.json` to generate the UI. This should be your last step.
 4. Return your response in this JSON format:
    {{

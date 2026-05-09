@@ -120,8 +120,8 @@ def view_tiles(data_file: str) -> PrefabApp:
         with Column(gap=8):
             # A cool header with a gradient text
             with Column(gap=2, items="center"):
-                Heading("Gourmet Indian Recipes", level=1, css_class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-pink-600 text-center")
-                Muted("Curated by your agentic assistant", css_class="text-lg text-center text-gray-600")
+                Heading("Agentic Dashboard", level=1, css_class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600 text-center")
+                Muted("Dynamic search results rendered by your AI assistant", css_class="text-lg text-center text-gray-600")
             
             Separator(css_class="my-2 opacity-50")
             
