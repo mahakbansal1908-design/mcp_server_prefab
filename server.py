@@ -32,6 +32,7 @@ def fetch_content(url: str) -> str:
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
         response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
         
         # Extract Open Graph image if available
         og_image = re.search(r'<meta property="og:image" content="([^"]+)"', response.text)

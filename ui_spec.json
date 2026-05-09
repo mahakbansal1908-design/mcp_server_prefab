@@ -15,14 +15,14 @@
             "type": "Column",
             "children": [
               {
-                "cssClass": "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-pink-600 text-center",
-                "content": "Gourmet Indian Recipes",
+                "cssClass": "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600 text-center",
+                "content": "Agentic Dashboard",
                 "type": "Heading",
                 "level": 1
               },
               {
                 "cssClass": "text-lg text-center text-gray-600",
-                "content": "Curated by your agentic assistant",
+                "content": "Dynamic search results rendered by your AI assistant",
                 "type": "Muted"
               }
             ]
@@ -43,8 +43,8 @@
                   {
                     "cssClass": "h-56 object-cover w-full",
                     "type": "Image",
-                    "src": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/12/beetroot-curry-recipe.jpg",
-                    "alt": "Beetroot Curry (Beetroot Sabzi)",
+                    "src": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/paneer-butter-masala-recipe.jpg",
+                    "alt": "Paneer Butter Masala",
                     "width": "100%"
                   },
                   {
@@ -64,7 +64,7 @@
                           {
                             "cssClass": "text-xl font-bold text-gray-800 leading-tight",
                             "type": "CardTitle",
-                            "content": "Beetroot Curry (Beetroot Sabzi)"
+                            "content": "Paneer Butter Masala"
                           },
                           {
                             "cssClass": "opacity-30",
@@ -78,7 +78,7 @@
                               {
                                 "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
                                 "type": "Markdown",
-                                "content": "[**View Recipe**](https://www.indianhealthyrecipes.com/beetroot-curry/)"
+                                "content": "[**View Recipe**](https://www.indianhealthyrecipes.com/paneer-butter-masala/)"
                               },
                               {
                                 "cssClass": "text-indigo-600",
@@ -100,8 +100,8 @@
                   {
                     "cssClass": "h-56 object-cover w-full",
                     "type": "Image",
-                    "src": "https://www.indianveggiedelight.com/wp-content/uploads/2020/02/beetroot_tikki-1-360x361.jpg",
-                    "alt": "Beetroot Tikki (Cutlet)",
+                    "src": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/12/kadai-paneer-1.jpg",
+                    "alt": "Kadai Paneer",
                     "width": "100%"
                   },
                   {
@@ -121,7 +121,7 @@
                           {
                             "cssClass": "text-xl font-bold text-gray-800 leading-tight",
                             "type": "CardTitle",
-                            "content": "Beetroot Tikki (Cutlet)"
+                            "content": "Kadai Paneer"
                           },
                           {
                             "cssClass": "opacity-30",
@@ -135,7 +135,7 @@
                               {
                                 "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
                                 "type": "Markdown",
-                                "content": "[**View Recipe**](https://www.indianveggiedelight.com/beetroot-recipes/)"
+                                "content": "[**View Recipe**](https://www.vegrecipesofindia.com/kadai-paneer-recipe/)"
                               },
                               {
                                 "cssClass": "text-indigo-600",
@@ -157,8 +157,8 @@
                   {
                     "cssClass": "h-56 object-cover w-full",
                     "type": "Image",
-                    "src": "https://pipingpotcurry.com/wp-content/uploads/2017/08/IMG_0809.jpg",
-                    "alt": "Beetroot Rice (Pulao)",
+                    "src": "https://pipingpotcurry.com/wp-content/uploads/2019/02/Paneer-Tikka-Masala-in-Instant-Pot-Piping-Pot-Curry-20-copy.jpg",
+                    "alt": "Paneer Tikka Masala",
                     "width": "100%"
                   },
                   {
@@ -178,7 +178,7 @@
                           {
                             "cssClass": "text-xl font-bold text-gray-800 leading-tight",
                             "type": "CardTitle",
-                            "content": "Beetroot Rice (Pulao)"
+                            "content": "Paneer Tikka Masala"
                           },
                           {
                             "cssClass": "opacity-30",
@@ -192,7 +192,7 @@
                               {
                                 "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
                                 "type": "Markdown",
-                                "content": "[**View Recipe**](https://pipingpotcurry.com/indian-beetroot-recipes/)"
+                                "content": "[**View Recipe**](https://pipingpotcurry.com/paneer-tikka-masala/)"
                               },
                               {
                                 "cssClass": "text-indigo-600",
@@ -214,8 +214,8 @@
                   {
                     "cssClass": "h-56 object-cover w-full",
                     "type": "Image",
-                    "src": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/02/beetroot-halwa-recipe-1-500x375.jpg",
-                    "alt": "Beetroot Halwa",
+                    "src": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/matar-paneer.jpg",
+                    "alt": "Matar Paneer",
                     "width": "100%"
                   },
                   {
@@ -235,7 +235,7 @@
                           {
                             "cssClass": "text-xl font-bold text-gray-800 leading-tight",
                             "type": "CardTitle",
-                            "content": "Beetroot Halwa"
+                            "content": "Matar Paneer"
                           },
                           {
                             "cssClass": "opacity-30",
@@ -249,7 +249,7 @@
                               {
                                 "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
                                 "type": "Markdown",
-                                "content": "[**View Recipe**](https://www.vegrecipesofindia.com/beetroot-recipes/)"
+                                "content": "[**View Recipe**](https://www.indianhealthyrecipes.com/matar-paneer/)"
                               },
                               {
                                 "cssClass": "text-indigo-600",
@@ -271,8 +271,8 @@
                   {
                     "cssClass": "h-56 object-cover w-full",
                     "type": "Image",
-                    "src": "https://panmastery.com/wp-content/uploads/2026/04/Beetroot-Pachadi-with-Yogurt-683x1024.jpg",
-                    "alt": "Beetroot Sambar",
+                    "src": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/palak-paneer-recipe.jpg",
+                    "alt": "Palak Paneer",
                     "width": "100%"
                   },
                   {
@@ -292,7 +292,7 @@
                           {
                             "cssClass": "text-xl font-bold text-gray-800 leading-tight",
                             "type": "CardTitle",
-                            "content": "Beetroot Sambar"
+                            "content": "Palak Paneer"
                           },
                           {
                             "cssClass": "opacity-30",
@@ -306,7 +306,7 @@
                               {
                                 "cssClass": "text-sm text-indigo-600 hover:text-indigo-800 font-semibold transition-colors",
                                 "type": "Markdown",
-                                "content": "[**View Recipe**](https://panmastery.com/beetroot-recipes-indian/)"
+                                "content": "[**View Recipe**](https://www.indianhealthyrecipes.com/palak-paneer-recipe/)"
                               },
                               {
                                 "cssClass": "text-indigo-600",

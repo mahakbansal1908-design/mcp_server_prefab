@@ -4,6 +4,10 @@ An autonomous, AI-powered dashboard that searches, verifies, and renders informa
 
 This project demonstrates a fully autonomous agent loop that leverages the **Google Gemini API** to fetch diverse content from the web, verify links, and generate a high-fidelity UI using the **Prefab** framework and **Tailwind CSS**.
 
+## 📺 Demo
+
+Check out the dashboard in action: [Watch the Demo on YouTube](https://youtu.be/6idikrxhdN0)
+
 ## ✨ Features
 
 - **Autonomous Curation**: The agent searches for information based on your prompt and selects the best results from at least 3 different domains to ensure diversity.

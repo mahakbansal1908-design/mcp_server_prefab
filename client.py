@@ -92,7 +92,11 @@ Instructions:
 3. The user wants to see a beautiful UI of the information. To do this, you MUST:
    a. Search and fetch data if needed.
    b. **Verify** that the links you plan to use are valid and return successful content by using the 'fetch_content' tool on them before adding them to the file. This is to ensure they are not broken or 404.
-   c. Process the verified data and write it to a file named `data.json` using the 'file_crud' tool with action='write'. You MUST use this exact filename for all runs to prevent accumulating multiple files. The file content must be a JSON list of objects, where each object MUST have 'title', 'link', and 'image_url'. Try to extract a valid image URL from the fetched page if possible.
+   c. Process the verified data and write it to a file named `data.json` using the 'file_crud' tool with action='write'. You MUST use this exact filename for all runs to prevent accumulating multiple files. The file content must be a JSON list of objects, where each object MUST have:
+      - 'title': The name of the item.
+      - 'link': The URL to the full article or recipe page (MUST NOT be an image URL).
+      - 'image_url': The URL to a valid image representing the item.
+      Try to extract a valid image URL from the fetched page. **You MUST use the exact image URLs found in the 'Found Images' or 'Candidate Images' list returned by the 'fetch_content' tool. Do NOT guess, infer, or construct image URLs based on patterns.** Avoid using Cloudflare image resizing URLs (e.g., containing `cdn-cgi/image`) as they often block hotlinking; look for a clean, direct source image URL in the candidate images list or Open Graph metadata.
    d. **You MUST provide at least 5 tiles with different content and different, specific links for each SPECIFIC ITEM (e.g., a specific product or article, not a listicle or collection page).** The title of the tile must be the name of the specific item. Do not use the same link for all items.
    e. Call 'view_tiles' with `data.json` to generate the UI. This should be your last step.
 4. Return your response in this JSON format:
